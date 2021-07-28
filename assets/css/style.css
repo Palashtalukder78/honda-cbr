@@ -27,3 +27,20 @@ h1{
 header{
     background-color: #264653;
 }
+
+/* Features Section using grayscale style start */
+.service hr{
+    width: 5%;
+    margin: auto;
+}
+.first img{
+    filter: grayscale(100%);
+}
+.last img{
+    filter: grayscale(75%);
+}
+.service img{
+    width: 288px;
+    height: 243px;
+}
+/* Features Section using grayscale style End */
