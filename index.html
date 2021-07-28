@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cd059a6cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Honda CBR Assignment 3</title>
@@ -52,7 +53,37 @@
                         <p class="large-p">The 2021 Honda CBR150R has been launched in Indonesia. The updated model
                             comes with a much more aggressive bodywork similar to the Honda CBR250RR. It also gets a
                             more premium Showa SFF-BP inverted front fork and a rear monoshock. Interestingly, </p>
-                        <button class="btn button-color px-5">Purchase</button>
+                        <!-- <button class="btn button-color px-5">Purchase</button> -->
+                        <button type="button" class="btn button-color px-5" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="exampleModalLabel">Honda CBR</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-danger ">
+                                        <div class="card">
+                                            <img class="img-fluid" src="assets/images/header-bike.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text"> The updated model comes with a much more aggressive bodywork similar to the Honda CBR250RR. </p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary disabled"
+                                            data-bs-dismiss="modal">$ 1020</button>
+                                        <button type="button" class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6 text-sm-center">
                         <img class="img-fluid" src="assets/images/header-bike.png" alt="">
@@ -76,13 +107,20 @@
                         <div class="col-lg-4 col-md-6 text-center  my-5">
                             <img class="img-fluid " src="assets/images/feature-bike.jpg" alt="">
                         </div>
-                        <div class="col-lg-4 col-md-6 text-end last text-center my-5">
+                        <div class="col-lg-4 col-md-6 text-end last text-center mt-5">
                             <img class="img-fluid " src="assets/images/feature-bike.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Fetures Section end  -->
+
+            <!-- Latest News Section Start  -->
+            <section class="latest-news">
+                <div class="row my-4">
+                    <h1 class="text-center mb-0">Fetured Bikes 2021</h1>
+                </div>
+            </section>
         </div>
     </main>
     <footer>
