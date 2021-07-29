@@ -29,6 +29,9 @@ h2{
 .section-heading{
     color: #0A0826;
 }
+.section-heading-secondary-color{
+    color: #E76F51;
+}
 .button-color{
     background-color: #E76F51;
     color: #ffffff;
@@ -101,6 +104,9 @@ header{
     color: #7E848C;
 }
 
+/* Media  */
+
+
 /* Contact Form Section Style  */
 form{
     border: 0.5px solid #ece2e2;
@@ -114,3 +120,38 @@ form:hover{
 iframe{
     border-radius: 25px;
 }
+
+
+/* Side Social Icon Style Start  */
+.side-social{
+    position: fixed;
+    top: 230px;
+    z-index: 10;
+}
+.side-social ul{
+    position: relative;
+    left: -50px;
+}
+.side-social  li{
+    list-style: none;
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+    background-color: #E02C6D;
+    margin: 11px;
+    padding: 5px 10px;
+    transition: .5s ;
+}
+.side-social i{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    transition: .5s ;
+}
+.side-social li:hover{
+    width: 50px;
+    background-color: #E77C40;
+}
+.side-social li:hover i{
+    font-size: 40px;
+    color: rgb(251, 250, 250)
+}
+/* Side Social Icon End  */
